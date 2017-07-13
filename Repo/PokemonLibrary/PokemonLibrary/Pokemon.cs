@@ -12,8 +12,13 @@ namespace PokemonLibrary
         public string hight;
         public string weight;
         public string gender;
-        public string category;
+        public string type;
         public string hp;
-        public string weapon;
+        public string stardust;
+        public string candy;
+        public string powerup;
+        public string evolve;
+        public string tackle;
+        public string powerwhip;
     }
 }
