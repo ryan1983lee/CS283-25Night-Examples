@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Example01
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            Console.WriteLine("Holle World");
+            Console.Write("請輸入帳號：");
+            Console.WriteLine("我今天心情很{0}{1}", "開心", "才怪");
         }
     }
 }
