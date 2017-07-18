@@ -8,17 +8,16 @@ namespace PokemonLibrary
 {
     public class Pokemon
     {
-        public string name;
-        public string hight;
-        public string weight;
-        public string gender;
-        public string type;
-        public string hp;
-        public string stardust;
-        public string candy;
-        public string powerup;
-        public string evolve;
-        public string tackle;
-        public string powerwhip;
+        public string Name;
+        public float Height;
+        public float Weight;
+        public string[] Genders;
+        public string[] Types;
+        public int hp;
+        public int maxhp;
+        public int PowerUpStardust;
+        public int PowerUpCandy;
+        public int EvolveCandy;
+        
     }
 }
